@@ -16,6 +16,7 @@ variable "cluster_name" {
 variable "google_project" {
   type        = string
   description = "Google Project to deploy cluster"
+  default = "swift-synthesis-485713-e1"
 }
 
 variable "node_count" {
